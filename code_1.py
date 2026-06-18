@@ -1,0 +1,15 @@
+import streamlit as st 
+st.write("hi world")
+st.title("hi ")
+st.header("header")
+st.subheader("subheader")
+st.code("#copy")
+st.success("true")
+st.warning("false")
+st.sidebar.title("sidebar title")
+choice = st.sidebar.radio("select a view:",["home","about"])
+a=st.text_input("name:")
+st.write("my name is",a)
+age=st.slider("age:", min_value=0, max_value=120)
+st.write("my age is",age)
+
